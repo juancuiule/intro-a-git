@@ -24,6 +24,20 @@ Vamos a instalar git por medio de un ejecutable que podemos encontrar haciendo c
 Si no sos muy amigo de la consola de comandos, existen distintos progrmas que te van a permitir usar git de una manera visual.
 Podes encontrar una lista con todos ellos [aquí](https://git-scm.com/downloads/guis)
 
+<style>
+.my-btn {
+    background-color: red;
+    width: 120px;
+    display: inline;
+    text-align: center;
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+}
 
-<a href="/instalacion" class="btn">Anterior</a>
-<a href="/comandos-basicos" class="btn">Siguiente</a>
+.btn-next {
+    margin-left: 71.9%;
+}
+
+</style>
+<a href="intro-a-git/instalacion" class="btn">Anterior</a>
+<a href="intro-a-git/comandos-basicos" class="btn btn-next">Siguiente</a>
