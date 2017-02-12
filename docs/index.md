@@ -8,8 +8,8 @@ Desarrollar software sin utilizar control de versionado es riesgoso y tedioso. L
 Los programadores que trabajan en equipo estan continuamente escribiendo código nuevo y modificando código existente. Estos sistemas nos permiten que distintas personas de un equipo puedan trabajar en distintas funciones la aplicación al mismo tiempo.
 
 ### Índice
-1. [Instalación](juancuiule.github.io/intro-a-git/instalacion)
-2. [Comandos básicos](juancuiule.github.io/intro-a-git/comandos-basicos)
+1. [Instalación](instalacion)
+2. [Comandos básicos](comandos-basicos)
 
 
 ```bash
