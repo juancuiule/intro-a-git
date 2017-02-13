@@ -35,9 +35,9 @@ Podes encontrar una lista con todos ellos [aquí](https://git-scm.com/downloads/
 }
 
 .btn-next {
-    margin-left: 71.9%;
+    margin-left: 71.9% !important;
 }
 
 </style>
-<a href="intro-a-git/instalacion" class="btn">Anterior</a>
-<a href="intro-a-git/comandos-basicos" class="btn btn-next">Siguiente</a>
+<a href="instalacion" class="btn my-btn">Anterior</a>
+<a href="comandos-basicos" class="btn my-btn btn-next">Siguiente</a>
