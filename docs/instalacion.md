@@ -48,10 +48,5 @@ Podes encontrar una lista con todos ellos [aquí](https://git-scm.com/downloads/
 }
 
 </style>
-
-<a href=[0] class="btn my-btn">Anterior</a>
-<a href=[2] class="btn my-btn btn-next">Siguiente</a>
-
-[0]: index
-[1]: instalacion
-[2]: comandos-basicos
+<a href="index" class="btn my-btn">Anterior</a>
+<a href="comandos-basicos" class="btn my-btn btn-next">Siguiente</a>
