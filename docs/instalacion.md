@@ -1,21 +1,21 @@
 # Instalación
-Antes de poder empezar a usar git tenemos que instalarlo. El proceso de instalación es simple pero varia dependiendo del sistema operativo en el que desarrollemos.
+Antes de poder empezar a usar git tenemos que instalarlo. El proceso de instalación es simple pero varía dependiendo del sistema operativo en el que desarrollemos.
 
-##### Instalación en sistemas GNU/Linux
+#### Instalación en sistemas GNU/Linux
 Para instalar git en un sistema de este tipo podemos usar la consola.
 
-####### Debian/Ubuntu
+###### Debian/Ubuntu
 ```bash
 $ sudo apt-get install git-all
 ```
 
 Para ver cómo realizar la instalación en otras distribuciones hacer click [aquí](https://git-scm.com/download/linux)
 
-##### Instalación en Windows
+#### Instalación en Windows
 
 Vamos a instalar git por medio de un ejecutable que podemos encontrar haciendo click [aquí](https://git-scm.com/download/win)
 
-##### Instalación en Mac
+#### Instalación en Mac
 
 Vamos a instalar git por medio de un ejecutable que podemos encontrar haciendo click [aquí](https://git-scm.com/download/mac)
 
@@ -39,5 +39,6 @@ Podes encontrar una lista con todos ellos [aquí](https://git-scm.com/downloads/
 }
 
 </style>
-<a href="instalacion" class="btn my-btn">Anterior</a>
+<br>
+<a href="index" class="btn my-btn">Anterior</a>
 <a href="comandos-basicos" class="btn my-btn btn-next">Siguiente</a>
