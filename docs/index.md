@@ -1,5 +1,5 @@
 # Introducción a Git
-
+---
 ## ¿Qué es Git?
 Git es el sistema de control de versionado mas usado actualmente. Fue creado en 2005 por Linus Torvalds, el famoso creador del kernel Linux que se encuentra en los sistemas operativos GNU/Linux y también en dispositivos android, y es activamente mantenido por una gran comunidad de código abierto.
 
@@ -10,8 +10,3 @@ Los programadores que trabajan en equipo estan continuamente escribiendo código
 ### Índice
 1. [Instalación](instalacion)
 2. [Comandos básicos](comandos-basicos)
-
-
-```bash
-git init
-```
