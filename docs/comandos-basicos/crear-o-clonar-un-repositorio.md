@@ -22,7 +22,7 @@ Este comando creara una nueva carpeta llamada **.git** que contiene los archivos
 
 ## Clonando un repositorio existente
 ---
-Si queres tenes una copia de un repositorio existente, como puede ser el de un proyecto al que quieras contribuir, el comando que tenemos que usar es **git clone <url>**
+Si queres tenes una copia de un repositorio existente, como puede ser el de un proyecto al que quieras contribuir, el comando que tenemos que usar es **git clone [url]**
 Por ejemplo si quisieras clonar el repositorio donde esta este tutorial podrias hacer:
 
 ```bash
