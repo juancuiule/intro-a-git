@@ -26,6 +26,7 @@ Podes encontrar una lista con todos ellos [aquí](https://git-scm.com/downloads/
 
 ---
 
+<br>
 <style>
 .my-btn {
     width: 120px;

@@ -1,7 +1,40 @@
 # Comandos Básicos
 
+## Creando un repositorio desde cero
+---
+Para poder manejar un repositorio lo primero que debemos hacer es crear una carpeta para nuestro proyecto.
+Una vez que tengamos esta carpeta creada debemos ingresar a ella por medio de la linea de comandos.
+Supongamos que creeamos la carpeta en "Documentos"
+
+```bash
+~$ cd Documentos
+~/Documentos$ mkdir ProyectoPtf
+~/Documentos$ cd ProyectoPtf
+```
+
+Una vez que estemos dentro de esta carpeta debemos ejecutar el sitguiente comandos
+
+```bash
+~/Documentos$ git init
+```
+
+Este comando creara una nueva carpeta llamada **.git** que contiene los archivos necesarios para hacer el seguimiento de cambios en archivos.
+
+## Clonando un repositorio existente
+---
+Si queres tenes una copia de un repositorio existente, como puede ser el de un proyecto al que quieras contribuir, el comando que tenemos que usar es **git clone <url>**
+Por ejemplo si quisieras clonar el repositorio donde esta este tutorial podrias hacer:
+
+```bash
+~/Documentos$ git clone https://github.com/juancuiule/intro-a-git.git
+```
+
+Este comando se encarga de crear una carpeta con el nombre del proyecto (**intro-a-git**) y de clonar ahí todos los archivos.
+
+
 ---
 
+<br>
 <style>
 .my-btn {
     width: 120px;
