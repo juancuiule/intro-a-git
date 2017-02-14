@@ -1,4 +1,4 @@
-# Comandos Básicos
+# Comandos Básicos - Crear o Clonar un repositorio
 
 ## Creando un repositorio desde cero
 ---
@@ -58,4 +58,4 @@ Este comando se encarga de crear una carpeta con el nombre del proyecto (**intro
 
 </style>
 <a href="instalacion" class="btn my-btn">Anterior</a>
-<a href="comandos-basicos" class="btn my-btn btn-next">Siguiente</a>
+<a href="comandos-basicos/agregar-archivos" class="btn my-btn btn-next">Siguiente</a>
