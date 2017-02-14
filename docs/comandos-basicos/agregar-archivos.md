@@ -11,19 +11,16 @@
     color: rgba(255, 255, 255, 0.6);
     background-color: #159957;
     background-image: linear-gradient(120deg, #155799, #159957);
-    transition: color 0.2s ease-in-out, border .2s ease-in-out, box-shadow .2s ease-in-out;
+    transition: color 0.2s ease-in-out;
 }
 
 .my-btn:hover {
     color: #FFFFFF;
-    box-shadow: rgba(187, 187, 187, 0.53) 0 4px 3px 1px;
-    border: 1px solid rgba(255, 255, 255, 0);
 }
 
 .btn-next {
     margin-left: 71.9% !important;
 }
-
 </style>
-<a href="comandos-basicos/crear-o-clonar-un-repositorio" class="btn my-btn">Anterior</a>
-<a href="comandos-basicos/agregar-archivos" class="btn my-btn btn-next">Siguiente</a>
+<a href="crear-o-clonar-un-repositorio" class="btn my-btn">Anterior</a>
+<a href="agregar-archivos" class="btn my-btn btn-next">Siguiente</a>

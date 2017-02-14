@@ -10,4 +10,4 @@ Los programadores que trabajan en equipo estan continuamente escribiendo código
 
 ### Índice
 1. [Instalación](instalacion)
-2. [Comandos básicos](comandos-basicos)
+2. [Comandos básicos](comandos-basicos/index)
