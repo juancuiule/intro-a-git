@@ -47,4 +47,4 @@ Podes encontrar una lista con todos ellos [aquí](https://git-scm.com/downloads/
 }
 </style>
 <a href="index" class="btn my-btn">Anterior</a>
-<a href="comandos-basicos/crear-o-clonar-un-repositorio" class="btn my-btn btn-next">Siguiente</a>
+<a href="comandos-basicos/index" class="btn my-btn btn-next">Siguiente</a>
