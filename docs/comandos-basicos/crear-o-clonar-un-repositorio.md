@@ -20,7 +20,8 @@ Una vez que estemos dentro de esta carpeta debemos ejecutar el sitguiente comand
 
 Este comando creara una nueva carpeta llamada **.git** que contiene los archivos necesarios para hacer el seguimiento de cambios en archivos.
 
-![Crear repositorio desde GitHub Desktop](../../media/crear-repositorio.png)
+![Crear repositorio desde GitHub Desktop](../media/crear-repositorio.png)
+
 #### Crear repositorio desde GitHub Desktop
 Para crear un repositorio desde la interfaz gráfica que nos ofrece GitHub (solo Windows y Mac) tenemos que hacer click en el **+** y completar el espacio en blanco con el nombre de nuestro proyecto.
 
