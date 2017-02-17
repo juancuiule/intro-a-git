@@ -3,8 +3,8 @@
 ## Creando un repositorio desde cero
 ---
 Para poder manejar un repositorio lo primero que debemos hacer es crear una carpeta para nuestro proyecto.
-Una vez que tengamos esta carpeta creada debemos ingresar a ella por medio de la linea de comandos.
-Supongamos que creeamos la carpeta en "Documentos"
+Una vez que tengamos esta carpeta creada debemos ingresar a ella por medio de la línea de comandos.
+Supongamos que creamos la carpeta en "Documentos"
 
 ```bash
 ~$ cd Documentos
@@ -12,13 +12,13 @@ Supongamos que creeamos la carpeta en "Documentos"
 ~/Documentos$ cd ProyectoPtf
 ```
 
-Una vez que estemos dentro de esta carpeta debemos ejecutar el sitguiente comandos
+Una vez que estemos dentro de esta carpeta debemos ejecutar el siguiente comandos
 
 ```bash
-~/Documentos$ git init
+~/Documentos/ProyectoPtf/$ git init
 ```
 
-Este comando creara una nueva carpeta llamada **.git** que contiene los archivos necesarios para hacer el seguimiento de cambios en archivos.
+Este comando creará una nueva carpeta llamada **.git** que contiene los archivos necesarios para hacer el seguimiento de cambios en archivos.
 
 ![Crear repositorio desde GitHub Desktop](../media/crear-repositorio.png)
 
@@ -36,6 +36,10 @@ Por ejemplo si quisieras clonar el repositorio donde esta este tutorial podrias 
 
 Este comando se encarga de crear una carpeta con el nombre del proyecto (**intro-a-git**) y de clonar ahí todos los archivos.
 
+![Clonar un repositorio desde GitHub Desktop](../media/crear-repositorio.png)
+
+#### Clonar un repositorio desde GitHub Desktop
+Para clonar un repositorio desde la interfaz gráfica que nos ofrece GitHub (solo Windows y Mac) tenemos que hacer click en el **+**, movernos a la pestaña "Clone" y buscar el repositorio a clonar.
 
 ---
 
