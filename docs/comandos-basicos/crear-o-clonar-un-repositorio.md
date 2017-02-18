@@ -36,7 +36,7 @@ Por ejemplo si quisieras clonar el repositorio donde esta este tutorial podrias 
 
 Este comando se encarga de crear una carpeta con el nombre del proyecto (**intro-a-git**) y de clonar ahí todos los archivos.
 
-![Clonar un repositorio desde GitHub Desktop](../media/crear-repositorio.png)
+![Clonar un repositorio desde GitHub Desktop](../media/clonar-repositorio.png)
 
 #### Clonar un repositorio desde GitHub Desktop
 Para clonar un repositorio desde la interfaz gráfica que nos ofrece GitHub (solo Windows y Mac) tenemos que hacer click en el **+**, movernos a la pestaña "Clone" y buscar el repositorio a clonar.
