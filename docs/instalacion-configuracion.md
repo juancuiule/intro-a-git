@@ -1,28 +1,42 @@
 # Instalación
+---
+
 Antes de poder empezar a usar git tenemos que instalarlo. El proceso de instalación es simple pero varía dependiendo del sistema operativo en el que desarrollemos.
 
-#### Instalación en sistemas GNU/Linux
+### Instalación en sistemas GNU/Linux
 Para instalar git en un sistema de este tipo podemos usar la consola.
 
-###### Debian/Ubuntu
+#### Debian/Ubuntu
 ```bash
 $ sudo apt-get install git-all
 ```
 
 Para ver cómo realizar la instalación en otras distribuciones hacer click [aquí](https://git-scm.com/download/linux)
 
-#### Instalación en Windows
+### Instalación en Windows
 
 Vamos a instalar git por medio de un ejecutable que podemos encontrar haciendo click [aquí](https://git-scm.com/download/win)
 
-#### Instalación en Mac
+### Instalación en Mac
 
 Vamos a instalar git por medio de un ejecutable que podemos encontrar haciendo click [aquí](https://git-scm.com/download/mac)
 
-#### Interfaces Gráficas
+### Interfaces Gráficas
 
 Si no sos muy amigo de la consola de comandos, existen distintos progrmas que te van a permitir usar git de una manera visual.
 Podes encontrar una lista con todos ellos [aquí](https://git-scm.com/downloads/guis)
+
+# Configuración
+---
+
+Ahora que ya tenemos git instalado, vamos a configurar el entorno. Sólo necesitamos hacer esto una sola vez, sin embargo es posible cambiarlo en cualquier momento volviendo a ejecutar los comandos que vamos a ver ahora.
+
+Empezemos por configurar nuestra identidad, git usa esta información para confirmar los cambios realizados y para informar quién fue el que los hizo.
+
+```bash
+$ git config --global user.name "Juan Cuiule"
+$ git config --global user.email juan.cuiule@bue.edu.ar
+```
 
 ---
 
@@ -47,4 +61,4 @@ Podes encontrar una lista con todos ellos [aquí](https://git-scm.com/downloads/
 }
 </style>
 <a href="index" class="btn my-btn">Anterior</a>
-<a href="comandos-basicos/index" class="btn my-btn btn-next">Siguiente</a>
+<a href="git-init-clone" class="btn my-btn btn-next">Siguiente</a>
