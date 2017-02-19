@@ -8,7 +8,7 @@ También nos ayuda a hacer un seguimiento de cada modificación, deshacer errore
 
 ## Índice
 1. [Instalación y Configuración Inicial](instalacion-configuracion)
-2. [Git Init y Clone](2)
+2. [Git Init y Clone](git-init-clone)
 
 ## Referencias
 - Página oficial de git https://git-scm.com/
