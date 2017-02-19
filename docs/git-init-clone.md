@@ -1,45 +1,38 @@
-# Comandos Básicos - Crear o Clonar un repositorio
+# Git Init y Clone
 
 ## Creando un repositorio desde cero
 ---
-Para poder manejar un repositorio lo primero que debemos hacer es crear una carpeta para nuestro proyecto.
-Una vez que tengamos esta carpeta creada debemos ingresar a ella por medio de la línea de comandos.
-Supongamos que creamos la carpeta en "Documentos"
+
+Para iniciar nuestro proyecto vamos a crear una nueva carpeta en "Documentos".
+Una vez que tengamos esta carpeta creada debemos ingresar a ella por medio de la línea de comandos y usar el comando **git init** para inicializar el repositorio.
 
 ```bash
-~$ cd Documentos
-~/Documentos$ mkdir ProyectoPtf
-~/Documentos$ cd ProyectoPtf
-```
-
-Una vez que estemos dentro de esta carpeta debemos ejecutar el siguiente comandos
-
-```bash
+~/Documentos/$ mkdir ProyectoPtf
+~/Documentos/$ cd ProyectoPtf
 ~/Documentos/ProyectoPtf/$ git init
+Initialized empty Git repository in /home/juancuiule/Documentos/ProyectoPtf/.git/
 ```
 
-Este comando creará una nueva carpeta llamada **.git** que contiene los archivos necesarios para hacer el seguimiento de cambios en archivos.
-
-![Crear repositorio desde GitHub Desktop](../media/crear-repositorio.png)
-
-#### Crear repositorio desde GitHub Desktop
-Para crear un repositorio desde la interfaz gráfica que nos ofrece GitHub (solo Windows y Mac) tenemos que hacer click en el **+** y completar el espacio en blanco con el nombre de nuestro proyecto.
+Este comando crea una carpeta llamada **.git** que contiene todo lo necesario para que git pueda empezar a monitorear los cambios en el proyecto.
 
 ## Clonando un repositorio existente
----
-Si queres tenes una copia de un repositorio existente, como puede ser el de un proyecto al que quieras contribuir, el comando que tenemos que usar es **git clone [url]**
+
+Muchas veces usamos código de otros o queremos hacer modificaciones a código ajeno.
+Si queres tener una copia de un repositorio existente el comando que tenemos que usar es **git clone [url]**
 Por ejemplo si quisieras clonar el repositorio donde esta este tutorial podrias hacer:
 
 ```bash
 ~/Documentos$ git clone https://github.com/juancuiule/intro-a-git.git
+Cloning into 'intro-a-git'...
+remote: Counting objects: 125, done.
+remote: Compressing objects: 100% (91/91), done.
+remote: Total 125 (delta 69), reused 77 (delta 28), pack-reused 0
+Receiving objects: 100% (125/125), 137.74 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (69/69), done.
+Checking connectivity... done.
 ```
 
-Este comando se encarga de crear una carpeta con el nombre del proyecto (**intro-a-git**) y de clonar ahí todos los archivos.
-
-![Clonar un repositorio desde GitHub Desktop](../media/clonar-repositorio.png)
-
-#### Clonar un repositorio desde GitHub Desktop
-Para clonar un repositorio desde la interfaz gráfica que nos ofrece GitHub (solo Windows y Mac) tenemos que hacer click en el **+**, movernos a la pestaña "Clone" y buscar el repositorio a clonar.
+Este comando se encarga de crear una carpeta con el nombre del proyecto (**intro-a-git**) y copiar dentro de esta todos los archivos del repositorio que clonamos. Cuando clonamos el repositorio por medio de este comando no es necesario ejecutar **git init** porque el repositorio ya está inicializado.
 
 ---
 
@@ -63,5 +56,5 @@ Para clonar un repositorio desde la interfaz gráfica que nos ofrece GitHub (sol
     margin-left: 71.9% !important;
 }
 </style>
-<a href="index" class="btn my-btn">Anterior</a>
-<a href="agregar-archivos" class="btn my-btn btn-next">Siguiente</a>
+<a href="instalacion-configuracion" class="btn my-btn">Anterior</a>
+<a href="haciendo-cambios" class="btn my-btn btn-next">Siguiente</a>
