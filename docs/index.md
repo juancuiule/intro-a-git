@@ -1,13 +1,19 @@
-# Introducción a Git
+### ¿Qué es Git?
 ---
 
-## ¿Qué es Git?
-Git es el sistema de control de versionado mas usado actualmente. Fue creado en 2005 por Linus Torvalds, el famoso creador del kernel Linux que se encuentra en los sistemas operativos GNU/Linux y también en dispositivos android, y es activamente mantenido por una gran comunidad de código abierto.
+Git es un sistema de control de versiones distribuido. Permite que integrantes de un equipo de desarrollo trabajen en los mismos documentos simultáneamente minimizando los conflictos entre las distintas versiones de estos archivos.
+También nos ayuda a hacer un seguimiento de cada modificación, deshacer errores que se puedan haber cometido volviendo a versiones anteriores.
 
-### ¿Por qué debería usar git?
-Desarrollar software sin utilizar control de versionado es riesgoso y tedioso. Los sistemas de control de versionado son herramientas que nos permiten manejar los cambios en el código fuente a lo largo del tiempo, hacer un seguimiento de cada modificación, deshacer errores que se puedan haber cometido en el desarrollo volviendo a versiones anteriores.
-Los programadores que trabajan en equipo estan continuamente escribiendo código nuevo y modificando código existente. Estos sistemas nos permiten que distintas personas de un equipo puedan trabajar en distintas funciones la aplicación al mismo tiempo.
+
 
 ### Índice
-1. [Instalación](instalacion)
-2. [Comandos básicos](comandos-basicos/index)
+1. [Instalación y Configuración Inicial](instalacion-configuracion)
+2. [Git Init y Clone](2)
+
+### Referencias
+- Página oficial de git (https://git-scm.com/)
+- Pro Git en español (https://git-scm.com/book/es/v1) (traducción parcial)
+- Guía interactiva de git (https://try.github.io/)
+- Guía Visual de Git (https://marklodato.github.io/visual-git-guide/index-es.html)
+- Guía Rápida de Git (https://rogerdudler.github.io/git-guide/)
+- Git Cheat Sheet (https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
