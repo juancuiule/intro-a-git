@@ -6,7 +6,7 @@ El primero es la carpeta del proyecto que contiene los archivos.
 El segundo es el **Index** o zona de "stage".
 Por último **HEAD** quien apunta al último __commit__ que hayas hecho.
 
-![Estructura de git](../media/arboles.png)
+![Estructura de git](media/arboles.png)
 
 ## Git Status
 Una vez que ya tenemos un repositorio es importante saber en que estado se encuentran los archivos que tenemos en nuestro proyecto, cuales de ellos estn modificados, cuales se crearon o cuales se eliminaron.

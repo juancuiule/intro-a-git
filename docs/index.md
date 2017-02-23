@@ -9,6 +9,7 @@ También nos ayuda a hacer un seguimiento de cada modificación, deshacer errore
 ## Índice
 1. [Instalación y Configuración Inicial](instalacion-configuracion)
 2. [Git Init y Clone](git-init-clone)
+3. [Git Status, Add y Commit](haciendo-cambios)
 
 ## Referencias
 - Página oficial de git https://git-scm.com/
