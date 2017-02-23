@@ -8,8 +8,8 @@ Por último **HEAD** quien apunta al último __commit__ que hayas hecho.
 
 ![Estructura de git](../media/arboles.png)
 
-#### Git Status
-Una vez que ya tenemos un repositorio es importante saber en que estado se encuantran los archivos que tenemos en nuestro proyecto, cuales de ellos estan modificados, cuales se crearon o cuales se eliminaron.
+## Git Status
+Una vez que ya tenemos un repositorio es importante saber en que estado se encuentran los archivos que tenemos en nuestro proyecto, cuales de ellos estn modificados, cuales se crearon o cuales se eliminaron.
 Para esto usamos el siguiente comando:
 
 ```bash
@@ -32,12 +32,13 @@ Untracked files:
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-Como podemos ver, la consola nos devuelve un resumen del estado del repositorio, dieciendonos en que rama estamos, cuales son los archivos que tienen cambios, y cuales son los archivos que no estan siendo considerados para el próximo __commit__
+Como podemos ver, la consola nos devuelve un resumen del estado del repositorio, dieciendonos en que rama estamos, cuales son los archivos que tienen cambios, y cuales son los archivos que no están siendo considerados para el próximo __commit__
 
-#### Add y Commit
+## Add y Commit
 Necesitamos usar distintos comandos para poder mover nuestros archivos de un sector/árbol a otro.
 Cuando hacemos una modificación en algún archivo generemos una diferencia entre lo que se encuentra en nuestra carpeta y la última versión de este archivo en **HEAD**
 
+#### Git Add
 Para pasar estos cambios a **Index** usamos el siguiente comando:
 ```bash
 ~/Documentos/ProyectoPtf/$ git add <nombre-del-archivo>
@@ -83,6 +84,29 @@ Changes to be committed:
 	modified:   docs/media/crear-repositorio.png
 ```
 
+#### Git Commit
+
+Si bien ya pasamos estos cambios a la zona de stage o index, no se encuentran versionados con lo cual tenemos que usar un comando mas para empaquetarlos con un mensaje que describa a estos cambios.
+El comando que vamos a usar es **git commit**
+
+```bash
+~/Documentos/ProyectoPtf/$ git commit -m "Mensaje que describe los camios"
+[master 39d3f5d] Mensaje que describe los cambios
+ 1 file changed, 110 insertions(+)
+ create mode 100644 docs/haciendo-cambios.md
+```
+
+Después de hacer este commit podemos volver a chequear el estado del repo con **git status**
+
+```bash
+~/Documentos/ProyectoPtf/$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+```
+
+En este caso **status** nos dice que estamos un commit por delante de lo que se encuentra en nuestro repositorio __remoto__, tema que vamos a ver a continuación.
 
 ---
 
