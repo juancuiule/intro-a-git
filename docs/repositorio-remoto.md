@@ -6,10 +6,36 @@ Para comenzar vamos a crearnos una cuenta de usuario en [GitHub](https://github.
 ![Landing GitHub](media/github.png)
 
 Una vez que ya tengamos la cuenta hecha hacemos click sobre la pestaña "New Repository"
+
 ![New Repository](media/nuevo-repo.png)
 
 Esto nos lleva a la siguiente página donde vamos a crear nuestro repositorio remoto
+
 ![Crear Repo](media/crear-repo.png)
+
+Cuando ya creamos el repositorio remoto vamos a subir nuestro código a este repo.
+
+![Repo Creado](media/repo-creado.png)
+
+Como vemos en la imagen de arriba algunas lineas que debemos poner en la consola de comandos para conectar nuestro repositorio local con el remoto.
+
+Si ya tenemos nuestro repositorio creado localmente e hicimos algunos commits vamos a hacer lo siguiente:
+
+```bash
+~/Documentos/ProyectoPtf/$ git remote add origin https://github.com/juancuiule/ProyectoPtf.git
+~/Documentos/ProyectoPtf/$ git push -u origin master
+```
+
+Si todavía no iniciamos nuestro repositorio localmente hagamos esto:
+
+```bash
+~/Documentos/ProyectoPtf/$ echo "# ProyectoPtf" >> README.md
+~/Documentos/ProyectoPtf/$ git init
+~/Documentos/ProyectoPtf/$ git add README.md
+~/Documentos/ProyectoPtf/$ git commit -m "first commit"
+~/Documentos/ProyectoPtf/$ git remote add origin https://github.com/juancuiule/ProyectoPtf.git
+~/Documentos/ProyectoPtf/$ git push -u origin master
+```
 
 ---
 
