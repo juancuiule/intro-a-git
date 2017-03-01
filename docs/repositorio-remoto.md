@@ -2,18 +2,19 @@
 
 Hasta ahora todo lo que hicimos queda solo en nuestra maquina, pero como dijimos anteriormente git es muy util para compartir código con otros. Por eso vamos a ver cómo podemos subit nuestro código a un repositorio "remoto". Hay varias páginas que nos permiten subir nuestros repos, nosotros vamos a usar GitHub.
 
-Para comenzar vamos a crearnos una cuenta de usuario en [GitHub](https://github.com) llenando el formulario de registro.
+> Para comenzar vamos a crearnos una cuenta de usuario en [GitHub](https://github.com) llenando el formulario de registro.
+
 ![Landing GitHub](media/github.png)
 
-Una vez que ya tengamos la cuenta hecha hacemos click sobre la pestaña "New Repository"
+> Una vez que ya tengamos la cuenta hecha hacemos click sobre la pestaña "New Repository"
 
 ![New Repository](media/nuevo-repo.png)
 
-Esto nos lleva a la siguiente página donde vamos a crear nuestro repositorio remoto
+> Esto nos lleva a la siguiente página donde vamos a crear nuestro repositorio remoto
 
 ![Crear Repo](media/crear-repo.png)
 
-Cuando ya creamos el repositorio remoto vamos a subir nuestro código a este repo.
+> Cuando ya creamos el repositorio remoto vamos a subir nuestro código a este repo.
 
 ![Repo Creado](media/repo-creado.png)
 
