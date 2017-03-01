@@ -4,6 +4,24 @@ En esta sección vamos a seguir viendo un poco mas sobre repositorios remotos. C
 
 Cuando otra persona pushea commits al repositorio remoto tenemos que traer esos cambios a nuestro repo local para no terminar trabajando sobre lo mismo y pisando código que puede ser útil.
 
+El sinonimo de "traer cambios" para git es **git pull**
+```bash
+~/Documentos/ProyectoPtf/$ git pull origin master
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/juancuiule/intro-a-git
+ * branch            master     -> FETCH_HEAD
+   8fd9c95..9fea9f2  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ README.md | 21 +++++++++++++++++++--
+ 1 file changed, 19 insertions(+), 2 deletions(-)
+```
+
+En este caso podemos ver que hubo cambios en el archivo README.md
+Es recomendable chequear que no haya cambios en el repo remoto que no hayamos traido al local para evitar conflictos al querer subir nuestros cambios.
+
 
 ---
 
