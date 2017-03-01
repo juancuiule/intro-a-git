@@ -38,6 +38,10 @@ Si todavía no iniciamos nuestro repositorio localmente hagamos esto:
 ~/Documentos/ProyectoPtf/$ git push -u origin master
 ```
 
+> Una vez que ya "pusheamos" nuestros commits al repo remoto la página en github pasa a estar algo similar a la siguiente...
+
+![Primer Commit](media/despues-del-commit.png)
+
 ---
 
 <br>
@@ -61,4 +65,4 @@ Si todavía no iniciamos nuestro repositorio localmente hagamos esto:
 }
 </style>
 <a href="haciendo-cambios" class="btn my-btn">Anterior</a>
-<a href="branches" class="btn my-btn btn-next">Siguiente</a>
+<a href="repositorio-remoto-2" class="btn my-btn btn-next">Siguiente</a>
