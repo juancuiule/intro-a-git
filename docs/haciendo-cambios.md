@@ -1,4 +1,4 @@
-# Comandos Básicos - Agregar archivos al repositorio
+# Git Status, Add y Commit
 
 Antes de empezar a guardar los cambios o agregar archivos tenemos que entender cómo maneja git el estado de los archivos y sus cambios.
 El repositorio local (lo que está en nuestra PC) está compuesto por tres árboles que son mantenidos por git.
@@ -131,4 +131,4 @@ En este caso **status** nos dice que estamos un commit por delante de lo que se 
 }
 </style>
 <a href="crear-o-clonar-un-repositorio" class="btn my-btn">Anterior</a>
-<a href="agregar-archivos" class="btn my-btn btn-next">Siguiente</a>
+<a href="repositorio-remoto" class="btn my-btn btn-next">Siguiente</a>

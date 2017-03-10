@@ -12,6 +12,7 @@ Para poder seguir este tutorial se necesitan algunos conocimientos básicos del 
 1. [Instalación y Configuración Inicial](instalacion-configuracion)
 2. [Git Init y Clone](git-init-clone)
 3. [Git Status, Add y Commit](haciendo-cambios)
+4. [Repositorios Remotos](repositorio-remoto)
 
 ## Referencias
 - Página oficial de git https://git-scm.com/
