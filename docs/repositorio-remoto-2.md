@@ -2,7 +2,7 @@
 
 En esta sección vamos a seguir viendo un poco mas sobre repositorios remotos. Como dijimos anteriormente la mayoría de las veces que desarrollamos software lo hacemos en equipo con lo cual es muy importante mantener un orden que nos permita evitar o minimizar conflitos entre los integrantes de este grupo. Varias personas pueden trabajar en un mismo repositorio y para evitar conflictos es muy importante la comunicación entre nosotros que nos va a permitir estar atentos a cuando otro haga un cambio y saber como puede esto afectar el código que tenemos de manera local en nuestras maquinas.
 
-Cuando otra persona pushea commits al repositorio remoto tenemos que traer esos cambios a nuestro repo local para no terminar trabajando sobre lo mismo y pisando código que puede ser útil.
+Cuando otra persona "pushea" commits al repositorio remoto tenemos que traer esos cambios a nuestro repositorio local para no terminar trabajando sobre lo mismo y pisando código que puede ser útil.
 
 El sinonimo de "traer cambios" para git es **git pull**
 ```bash
@@ -21,7 +21,6 @@ Merge made by the 'recursive' strategy.
 
 En este caso podemos ver que hubo cambios en el archivo README.md
 Es recomendable chequear que no haya cambios en el repo remoto que no hayamos traido al local para evitar conflictos al querer subir nuestros cambios.
-
 
 ---
 

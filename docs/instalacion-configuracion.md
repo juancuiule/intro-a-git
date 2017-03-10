@@ -23,7 +23,7 @@ Vamos a instalar git por medio de un ejecutable que podemos encontrar haciendo c
 
 ### Interfaces Gráficas
 
-Si no sos muy amigo de la consola de comandos, existen distintos progrmas que te van a permitir usar git de una manera visual.
+Si no sos muy amigo de la consola de comandos, existen distintos progrmas que te van a permitir usar git de una manera visual. Si bien no se maneja por comandos los conceptos del manejo de versiones que vamos a ver son los mismos.
 Podes encontrar una lista con todos ellos [aquí](https://git-scm.com/downloads/guis)
 
 # Configuración

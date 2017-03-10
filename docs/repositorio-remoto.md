@@ -1,6 +1,6 @@
 # Git - Repositorios Remotos
 
-Hasta ahora todo lo que hicimos queda solo en nuestra maquina, pero como dijimos anteriormente git es muy util para compartir código con otros. Por eso vamos a ver cómo podemos subit nuestro código a un repositorio "remoto". Hay varias páginas que nos permiten subir nuestros repos, nosotros vamos a usar GitHub.
+Hasta ahora todo lo que hicimos queda solo en nuestra maquina, pero como dijimos anteriormente git es muy útil para compartir código con otros. Por eso vamos a ver cómo podemos subir nuestro código a un repositorio "remoto". Hay varias páginas que nos permiten subir nuestros proyectos, nosotros vamos a usar GitHub.
 
 > Para comenzar vamos a crearnos una cuenta de usuario en [GitHub](https://github.com) llenando el formulario de registro.
 
@@ -20,7 +20,7 @@ Hasta ahora todo lo que hicimos queda solo en nuestra maquina, pero como dijimos
 
 Como vemos en la imagen de arriba algunas lineas que debemos poner en la consola de comandos para conectar nuestro repositorio local con el remoto.
 
-Si ya tenemos nuestro repositorio creado localmente e hicimos algunos commits vamos a hacer lo siguiente:
+Si ya tenemos nuestro repositorio creado localmente e hicimos algunos commits vamos a hacer lo siguiente para poder subir el código:
 
 ```bash
 ~/Documentos/ProyectoPtf/$ git remote add origin https://github.com/juancuiule/ProyectoPtf.git
@@ -38,7 +38,7 @@ Si todavía no iniciamos nuestro repositorio localmente hagamos esto:
 ~/Documentos/ProyectoPtf/$ git push -u origin master
 ```
 
-> Una vez que ya "pusheamos" nuestros commits al repo remoto la página en github pasa a estar algo similar a la siguiente...
+> Una vez que ya "pusheamos" nuestros commits al repositorio remoto la página en github debería ser similar a la siguiente...
 
 ![Primer Commit](media/despues-del-commit.png)
 
