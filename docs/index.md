@@ -4,7 +4,9 @@
 Git es un sistema de control de versiones distribuido. Permite que integrantes de un equipo de desarrollo trabajen en los mismos documentos simultáneamente minimizando los conflictos entre las distintas versiones de estos archivos.
 También nos ayuda a hacer un seguimiento de cada modificación, deshacer errores que se puedan haber cometido volviendo a versiones anteriores.
 
+En este tutorial vamos a aprender a usar git y github para poder compartir y versionar los proyectos que desarrollemos durante el transcurso del club.
 
+Para poder seguir este tutorial se necesitan algunos conocimientos básicos del uso de la linea de comandos, básicamente como abrir una consola y navegar por las carpetas del sistema.
 
 ## Índice
 1. [Instalación y Configuración Inicial](instalacion-configuracion)
