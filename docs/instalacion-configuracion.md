@@ -43,6 +43,7 @@ $ git config --global user.email juan.cuiule@bue.edu.ar
 <br>
 <style>
 .my-btn {
+    height: 50px;
     width: 120px;
     display: inline;
     text-align: center;
@@ -50,15 +51,21 @@ $ git config --global user.email juan.cuiule@bue.edu.ar
     background-color: #159957;
     background-image: linear-gradient(120deg, #155799, #159957);
     transition: color 0.2s ease-in-out;
+    border-radius: 0.3rem;
+    padding: 12px;
 }
 
 .my-btn:hover {
     color: #FFFFFF;
 }
 
-.btn-next {
-    margin-left: 71.9% !important;
+.Grid {
+    display:flex;
+    justify-content: space-around;
 }
 </style>
-<a href="index" class="btn my-btn">Anterior</a>
-<a href="git-init-clone" class="btn my-btn btn-next">Siguiente</a>
+
+<div class="Grid">
+    <a href="index" class="btn my-btn">Anterior</a>
+    <a href="git-init-clone" class="btn my-btn btn-next">Siguiente</a>
+</div>
