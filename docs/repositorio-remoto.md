@@ -69,6 +69,6 @@ Si todavía no iniciamos nuestro repositorio localmente hagamos esto:
 }
 </style>
 <div class="Grid">
-    <a href="haciendo-cambios" class="btn my-btn">Anterior</a>
-    <a href="repositorio-remoto-2" class="btn my-btn btn-next">Siguiente</a>
+    <a href="haciendo-cambios" class="my-btn">Anterior</a>
+    <a href="repositorio-remoto-2" class="my-btn">Siguiente</a>
 </div>

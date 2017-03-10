@@ -49,6 +49,6 @@ Es recomendable chequear que no haya cambios en el repo remoto que no hayamos tr
 }
 </style>
 <div class="Grid">
-    <a href="repositorio-remoto" class="btn my-btn">Anterior</a>
-    <a href="branches" class="btn my-btn btn-next">Siguiente</a>
+    <a href="repositorio-remoto" class="my-btn">Anterior</a>
+    <a href="branches" class="my-btn">Siguiente</a>
 </div>

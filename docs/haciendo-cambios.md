@@ -116,6 +116,6 @@ En este caso **status** nos dice que estamos un commit por delante de lo que se 
 }
 </style>
 <div class="Grid">
-    <a href="crear-o-clonar-un-repositorio" class="btn my-btn">Anterior</a>
-    <a href="repositorio-remoto" class="btn my-btn btn-next">Siguiente</a>
+    <a href="crear-o-clonar-un-repositorio" class="my-btn">Anterior</a>
+    <a href="repositorio-remoto" class="my-btn">Siguiente</a>
 </div>

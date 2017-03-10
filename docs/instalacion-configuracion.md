@@ -66,6 +66,6 @@ $ git config --global user.email juan.cuiule@bue.edu.ar
 </style>
 
 <div class="Grid">
-    <a href="index" class="btn my-btn">Anterior</a>
-    <a href="git-init-clone" class="btn my-btn btn-next">Siguiente</a>
+    <a href="index" class="my-btn">Anterior</a>
+    <a href="git-init-clone" class="my-btn">Siguiente</a>
 </div>

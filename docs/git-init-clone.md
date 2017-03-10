@@ -61,6 +61,6 @@ Este comando se encarga de crear una carpeta con el nombre del proyecto (**intro
 }
 </style>
 <div class="Grid">
-    <a href="instalacion-configuracion" class="btn my-btn">Anterior</a>
-    <a href="haciendo-cambios" class="btn my-btn btn-next">Siguiente</a>
+    <a href="instalacion-configuracion" class="my-btn">Anterior</a>
+    <a href="haciendo-cambios" class="my-btn">Siguiente</a>
 </div>
