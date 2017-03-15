@@ -9,6 +9,9 @@ Verlo en https://juancuiule.github.io/intro-a-git
 2. [Git Init y Clone](https://juancuiule.github.io/intro-a-git/git-init-clone)
 3. [Git Status, Add y Commit](https://juancuiule.github.io/intro-a-git/haciendo-cambios)
 4. [Repositorios Remotos](https://juancuiule.github.io/intro-a-git/repositorio-remoto)
+5. [Repositorios Remotos - continuación](https://juancuiule.github.io/intro-a-git/repositorio-remoto-2)
+6. [Banches - Ramas](https://juancuiule.github.io/intro-a-git/branches)
+7. [Merge](https://juancuiule.github.io/intro-a-git/merge)
 
 ### Referencias y Páginas Útiles:
 - Página oficial de git https://git-scm.com/
