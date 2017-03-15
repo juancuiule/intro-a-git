@@ -14,7 +14,18 @@ Una vez que ya estamos en este branch usamos el comando **git merge** de la sigu
 
 ```bash
 ~/Documentos/ProyectoPtf/$ git merge nueva-funcionalidad
+Updating 6113d10..2091931
+Fast-forward
+ docs/branches.md | 17 +++++++++++++++--
+ docs/index.md    |  1 +
+ docs/merge.md    | 48 ++++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 64 insertions(+), 2 deletions(-)
+ create mode 100644 docs/merge.md
 ```
+
+De esta manera todos los commits que hicimos en el branch nueva-funcionalidad se replican en el branch master.
+
+Es posible que al momento de hacer un merge surjan conflictos por cambios que se hayan hechos en la rama principal despues de que hayamos creado nuestra rama "nueva-funcionalidad".
 
 ---
 
