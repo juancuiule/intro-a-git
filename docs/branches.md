@@ -5,15 +5,24 @@ Cuando hablamos de ramas o branches, hacemos referencia a una funcionalidad de g
 
 Por ejemplo si estamos trabajando en un aplicación web y tenemos una versión estable y que funciona de manera esperada en la rama principal **master** y queremos desarrollar una funcionalidad nueva podriamos armar un branch nuevo para trabajar en ella sin poner en peligro el funcionamiento de la aplicación.
 
-> Antes de que creemos el branch nuestro repositorio se encuentra en un estado similar al Siguiente
+> Antes de que creemos el branch nuestro repositorio se encuentra en un estado similar al siguiente
 
 ![Estado inicial](media/antes-del-nuevo-branch.png)
 
+> Ahora usamos el siguiente comando para crear un nuevo branch y "movernos" hacia este branch para trabajar en él
 
 ```bash
 ~/Documentos/ProyectoPtf/$ git checkout -b nueva-funcionalidad
 Switched to a new branch 'nueva-funcionalidad'
 ```
+
+> Luego de crear el branch el estado de nuestro repositorio pasa a ser este
+
+![Branch creado](media/creado-el-branch.png)
+
+Luego de hacer algunos cambios hacemos el proceso que ya aprendimos para hacer un commit
+
+
 
 
 
