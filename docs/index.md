@@ -14,6 +14,8 @@ Vamos a usar comandos como **cd**, **mkdir**, **ls** o **dir**.
 2. [Git Init y Clone](git-init-clone)
 3. [Git Status, Add y Commit](haciendo-cambios)
 4. [Repositorios Remotos](repositorio-remoto)
+5. [Repositorios Remotos - continuación](repositorio-remoto-2)
+6. [Banches - Ramas](branches)
 
 ## Referencias
 - Página oficial de git https://git-scm.com/
