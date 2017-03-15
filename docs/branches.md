@@ -22,9 +22,13 @@ Switched to a new branch 'nueva-funcionalidad'
 
 Luego de hacer algunos cambios hacemos el proceso que ya aprendimos para hacer un commit
 
+```bash
+~/Documentos/ProyectoPtf/$ git commit -m "primer commit en nueva funcionalidad"
+[nueva-funcionalidad e5a6a0f] primer commit en nueva funcionalidad
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+```
 
-
-
+![Branch despues del commit](media/despues-del-commit-en-branch.png)
 
 ---
 
@@ -54,5 +58,5 @@ Luego de hacer algunos cambios hacemos el proceso que ya aprendimos para hacer u
 </style>
 <div class="Grid">
     <a href="repositorio-remoto-2" class="my-btn">Anterior</a>
-    <a href="branches.md" class="my-btn">Siguiente</a>
+    <a href="merge" class="my-btn">Siguiente</a>
 </div>
