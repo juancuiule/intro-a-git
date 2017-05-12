@@ -55,5 +55,5 @@ Es posible que al momento de hacer un merge surjan conflictos por cambios que se
 </style>
 <div class="Grid">
     <a href="branches" class="my-btn">Anterior</a>
-    <a href="merge" class="my-btn">Siguiente</a>
+    <a href="problemas-al-hacer-merge" class="my-btn">Siguiente</a>
 </div>
