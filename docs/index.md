@@ -19,9 +19,9 @@ Vamos a usar comandos como **cd**, **mkdir**, **ls** o **dir**.
 7. [Merge](merge)
 
 ## Referencias
-- Página oficial de git https://git-scm.com/
-- Pro Git en español https://git-scm.com/book/es/v1 (traducción parcial)
-- Guía interactiva de git https://try.github.io/
-- Guía Visual de Git https://marklodato.github.io/visual-git-guide/index-es.html
-- Guía Rápida de Git https://rogerdudler.github.io/git-guide/
-- Git Cheat Sheet https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf
+- Página oficial de git [https://git-scm.com/](https://git-scm.com/)
+- Pro Git en español [https://git-scm.com/book/es/v1](https://git-scm.com/book/es/v1) (traducción parcial)
+- Guía interactiva de git [https://try.github.io/](https://try.github.io/)
+- Guía Visual de Git [https://marklodato.github.io/visual-git-guide/index-es.html](https://marklodato.github.io/visual-git-guide/index-es.html)
+- Guía Rápida de Git [https://rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/git-guide/)
+- Git Cheat Sheet [https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf](https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
