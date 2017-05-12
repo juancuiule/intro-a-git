@@ -25,7 +25,7 @@ Fast-forward
 
 De esta manera todos los commits que hicimos en el branch nueva-funcionalidad se replican en el branch master.
 
-Es posible que al momento de hacer un merge surjan conflictos por cambios que se hayan hechos en la rama principal despues de que hayamos creado nuestra rama "nueva-funcionalidad".
+Es posible que al momento de hacer un merge surjan conflictos por cambios que se hayan hecho en la rama principal despues de que hayamos creado nuestra rama "nueva-funcionalidad".
 
 ---
 
