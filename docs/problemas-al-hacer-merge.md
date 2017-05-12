@@ -71,6 +71,6 @@ En este caso solo voy a borrar los comentarios hechos por git y voy a hacer un n
 }
 </style>
 <div class="Grid">
-    <a href="branches" class="my-btn">Anterior</a>
-    <a href="merge" class="my-btn">Siguiente</a>
+    <a href="merge" class="my-btn">Anterior</a>
+    <a href="problemas-al-hacer-merge" class="my-btn">Siguiente</a>
 </div>

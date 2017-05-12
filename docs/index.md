@@ -17,6 +17,7 @@ Vamos a usar comandos como **cd**, **mkdir**, **ls** o **dir**.
 5. [Repositorios Remotos - continuación](repositorio-remoto-2)
 6. [Banches - Ramas](branches)
 7. [Merge](merge)
+8. [Conflictos en un merge](problemas-al-hacer-merge)
 
 ## Referencias
 - Página oficial de git [https://git-scm.com/](https://git-scm.com/)
